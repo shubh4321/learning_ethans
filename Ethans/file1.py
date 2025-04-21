@@ -52,10 +52,23 @@
 #############################################
 #dict
 
-d3 = {}
-d3[103] = {}
-d3[103]['name'] = 'Shubham'
-d3[103]['add'] = 'Pune'
-d3[103]['marks']={}
-d3[103]['marks']={'M':76,'C':69,'E':56}
-print(d3)
+# d3 = {}
+# d3[103] = {}
+# d3[103]['name'] = 'Shubham'
+# d3[103]['add'] = 'Pune'
+# d3[103]['marks']={}
+# d3[103]['marks']={'M':76,'C':69,'E':56}
+# print(d3)
+
+##############################################
+#type conversion
+t1 = (24,22,52,55)
+print(type(t1))
+print(t1)
+l1 = list(t1)
+print(type(l1))
+print(l1)
+
+n1 = 87654896
+#print((n1)[-2:]) it will throw error
+print(str(n1)[-2:])
