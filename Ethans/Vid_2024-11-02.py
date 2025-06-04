@@ -9,4 +9,5 @@ d1[roll]['name']=input("Enter Name: ")
 d1[roll]['marks']={}
 d1[roll]['marks']['M']=int(input("Enter maths marks: "))
 d1[roll]['marks']['C']=int(input("Enter Chemistry marks: "))
+d1[roll]['marks']['P']=int(input("Enter physics marks: "))
 print("details",d1)
